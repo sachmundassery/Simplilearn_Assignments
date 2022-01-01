@@ -1,0 +1,56 @@
+
+import java.util.*;
+import javax.swing.JOptionPane;
+
+public class Calculator {
+	float number1;
+	float number2;
+	
+	Calculator(){
+		String t = JOptionPane.showInputDialog(null, "Enter the first number","Calculator", JOptionPane.INFORMATION_MESSAGE);
+		number1 = Integer.parseInt(t);
+		
+		String[] options = new String[] {"+", "-", "*", "/"};
+		int optionChosen = JOptionPane.showOptionDialog(null, "Calculator", "Choose an operation", JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE,null, options, options[0]);
+
+		String y = JOptionPane.showInputDialog(null, "Enter the second number","Calculator", JOptionPane.INFORMATION_MESSAGE);
+		number2 = Integer.parseInt(y);
+		
+		if (optionChosen == 0) {
+			float totalAdd = number1+number2;
+			JOptionPane.showMessageDialog(null, "The result is " + totalAdd, "Calculator", JOptionPane.INFORMATION_MESSAGE);
+
+		}
+		else if (optionChosen == 1) {
+			float totalSubtract = number1-number2;
+			JOptionPane.showMessageDialog(null, "The result is " + totalSubtract, "Calculator", JOptionPane.INFORMATION_MESSAGE);
+
+		}
+		else if (optionChosen == 2) {
+			float totalMultiply = number1*number2;
+			JOptionPane.showMessageDialog(null, "The result is " + totalMultiply, "Calculator", JOptionPane.INFORMATION_MESSAGE);
+
+		}
+		else {
+			if (number2 ==0) {
+				JOptionPane.showMessageDialog(null, "Division by zero !","Calculator", JOptionPane.INFORMATION_MESSAGE);
+			}
+			else {
+				float totalDivide = number1/number2;
+				JOptionPane.showMessageDialog(null, "The result is " + totalDivide, "Calculator", JOptionPane.INFORMATION_MESSAGE);
+
+			}
+			
+		}
+
+
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculator calc = new Calculator();
+
+	}
+
+}

@@ -1,0 +1,6 @@
+127.0.0.1 - - [30/Dec/2021:12:11:11 +0530] "GET / HTTP/1.1" 404 748
+0:0:0:0:0:0:0:1 - - [30/Dec/2021:12:11:12 +0530] "GET /SessionHandling/index.jsp HTTP/1.1" 200 332
+0:0:0:0:0:0:0:1 - - [30/Dec/2021:12:11:18 +0530] "GET /SessionHandling/login.jsp?name=Sachin&pwd=asd HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [30/Dec/2021:12:11:18 +0530] "GET /SessionHandling/dashboard.jsp HTTP/1.1" 200 205
+0:0:0:0:0:0:0:1 - - [30/Dec/2021:12:11:20 +0530] "GET /SessionHandling/logout.jsp HTTP/1.1" 200 211
+0:0:0:0:0:0:0:1 - - [30/Dec/2021:12:11:22 +0530] "GET /SessionHandling/index.jsp HTTP/1.1" 200 332

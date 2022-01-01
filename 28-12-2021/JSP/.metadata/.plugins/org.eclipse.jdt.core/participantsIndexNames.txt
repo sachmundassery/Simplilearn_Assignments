@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+D:\Java FSD Assignments\28-12-2021\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2516392056.index
+\RegisterUsingJSP\src\main\java
+D:\Java FSD Assignments\28-12-2021\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2474575241.index
+\JSPDirectives\src\main\java
+D:\Java FSD Assignments\28-12-2021\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3913977988.index
+\CreateSimpleJSPFile\src\main\java
+D:\Java FSD Assignments\28-12-2021\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1509454683.index
+\JSPImplicitObjects\src\main\java
+D:\Java FSD Assignments\28-12-2021\JSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1310917150.index
+\JSPPageDirectives\src\main\java

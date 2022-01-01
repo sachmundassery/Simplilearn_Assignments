@@ -1,0 +1,66 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	
+-------------------------	Salary Of Four Employees  --------------------------
+<br><br><br>
+<c:set var="Employee1" scope="session" value="12000"/>Salary of Employee1 : <c:out value="${Employee1}"/>
+<br><br>
+<c:set var="Employee2" scope="session" value="23000"/>Salary of Employee2 : <c:out value="${Employee2}"/>
+<br><br>
+<c:set var="Employee3" scope="session" value="14000"/>Salary Of Employee3 : <c:out value="${Employee3}"/>
+<br><br>
+<c:set var="Employee4" scope="session" value="34000"/>Salary of Employee4 : <c:out value="${Employee4}"/> 
+<br><br><br>
+	--------------------------Adding Bonus Amount Using forEach ----------------------------------------
+<br><br>
+	<c:forEach var="Employee" items="${Employee1},${Employee2},${Employee3},${Employee4}">
+	<br>
+		<c:choose>
+			<c:when test="${Employee <= 13000}">
+				<c:out value="Adding 5000 Bonus Amount to ${Employee} = " /><c:out value="${Employee + 5000}"/>
+				<br/>
+			</c:when>
+			<c:when test="${Employee >= 13500 && Employee <= 21000}">
+				<c:out value="Adding 7000 Bonus Amount to ${Employee} = " /><c:out value="${Employee + 7000}"/>
+				<br/>
+			</c:when>
+			<c:when test="${Employee >= 22000 && Employee <= 26000}">
+				<c:out value="Adding 9000 Bonus Amount to ${Employee} = " /><c:out value="${Employee + 9000}"/>
+				<br/>
+			</c:when>
+			<c:when test="${Employee >= 28000}">
+				<c:out value="Adding 10000 Bonus Amount to ${Employee} = " /><c:out value="${Employee + 10000}"/>
+				<br/>
+			</c:when>
+		</c:choose>
+	</c:forEach>
+	
+	
+		<br><br>
+	-----------------  All the Previous Salaries are Removed --------------------------- 	
+	<c:remove var="Employee1"/>
+	<c:remove var="Employee2"/>
+	<c:remove var="Employee3"/>
+	<c:remove var="Employee4"/>
+	<br>
+	Employee1 : <c:out value="${Employee1}"/>
+		<br>
+	Employee2 : <c:out value="${Employee2}"/>
+		<br>
+	Employee3 : <c:out value="${Employee3}"/>
+		<br>
+	Employee4 : <c:out value="${Employee4}"/>
+	
+
+</body>
+</html>

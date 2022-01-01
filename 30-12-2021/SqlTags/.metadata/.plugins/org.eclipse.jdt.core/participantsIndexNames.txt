@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+D:\Java FSD Assignments\30-12-2021\SqlTags\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1095446669.index
+\JSTLAssignment\src\main\java
+D:\Java FSD Assignments\30-12-2021\SqlTags\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\554595221.index
+\ServletAndJSP\src
+D:\Java FSD Assignments\30-12-2021\SqlTags\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\465551199.index
+\Sql_Tag_Assignment\src\main\java

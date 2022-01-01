@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+D:\Java FSD Assignments\23-12-2021\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

@@ -1,0 +1,15 @@
+INDEX VERSION 1.131
+D:\Java FSD Assignments\29-12-2021\JSPActionTag\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\412481468.index
+\JstlTags\src\main\java
+D:\Java FSD Assignments\29-12-2021\JSPActionTag\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\677230868.index
+\EmployeeSession\src\main\java
+D:\Java FSD Assignments\29-12-2021\JSPActionTag\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3917796085.index
+\EmployeesSessionJSPActionTags\src\main\java
+D:\Java FSD Assignments\29-12-2021\JSPActionTag\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2097603284.index
+\JspActionTag2\src\main\java
+D:\Java FSD Assignments\29-12-2021\JSPActionTag\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1095446669.index
+\JSTLAssignment\src\main\java
+D:\Java FSD Assignments\29-12-2021\JSPActionTag\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\554595221.index
+\ServletAndJSP\src
+D:\Java FSD Assignments\29-12-2021\JSPActionTag\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2676054885.index
+\JspActionTag\src\main\java

@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+D:\Java FSD Assignments\30-12-2021\SqlTags\.metadata\.plugins\org.eclipse.jdt.core
+264688515.index
+2065647556.index
+1058254200.index
+618966934.index
+1145896355.index
+4278429606.index
+3982261219.index
+1656705060.index
+1847882414.index
+1067094681.index
+1865797976.index
+3288506408.index

@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\Java FSD Assignments\30-12-2021\JSPActionTagAssignment\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3196233681.index
+1249747782.index
+3524059344.index
+2840562676.index
+2271510225.index
+492415107.index
+2449046548.index

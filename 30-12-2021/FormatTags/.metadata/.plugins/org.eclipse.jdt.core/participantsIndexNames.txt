@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+D:\Java FSD Assignments\30-12-2021\FormatTags\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3724808902.index
+\Fmt_Tags_Assignment\src\main\java
+D:\Java FSD Assignments\30-12-2021\FormatTags\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\412481468.index
+\JstlTags\src\main\java
+D:\Java FSD Assignments\30-12-2021\FormatTags\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2097603284.index
+\JspActionTag2\src\main\java
+D:\Java FSD Assignments\30-12-2021\FormatTags\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\554595221.index
+\ServletAndJSP\src

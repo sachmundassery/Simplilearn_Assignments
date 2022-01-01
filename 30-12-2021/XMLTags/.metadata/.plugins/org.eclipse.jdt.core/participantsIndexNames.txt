@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+D:\Java FSD Assignments\30-12-2021\XMLTags\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1791350360.index
+\WebContent\src\main\java
+D:\Java FSD Assignments\30-12-2021\XMLTags\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\554595221.index
+\ServletAndJSP\src
+D:\Java FSD Assignments\30-12-2021\XMLTags\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3663988135.index
+\XmlTags\src\main\java

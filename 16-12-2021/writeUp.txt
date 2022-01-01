@@ -1,0 +1,5 @@
+when the user run the program, the user need to enter the filename along with the extension.
+the file will be created if it does not exist. else it will show the message that the file
+already exist. after creating the file, user need to write the content to the file.
+then the program will read the content that user added into the file. then the user need to append
+some more content into the file. then the program would read the content of the file once again.

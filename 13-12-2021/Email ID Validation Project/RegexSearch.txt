@@ -1,0 +1,47 @@
+package Regex.Search;
+
+import java.util.*;
+import java.util.regex.Pattern;
+
+public class RegexSearch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] stringArray = {"abc@gmail.com", "def@gmail.com","hij@gmail.com"};
+		Scanner scanner = new Scanner (System.in);
+		System.out.println("Enter the email to be searched ");
+		String itemSearched = scanner.nextLine();
+		boolean found = false;
+		String regexPattern = "^(.+)@(\\S+)$";
+		if (validateEmail(itemSearched, regexPattern)) {
+			for (String string : stringArray) {
+				if (Pattern.matches(string, itemSearched)) {
+					found =true;
+					break;
+				}
+				else {
+					continue;
+					
+				}
+			}
+			if (found) {
+				System.out.println("item found");
+			}
+			else {
+				System.out.println("item not found");
+			}	
+		}
+		else {
+			System.out.println("Invalid email");
+		}
+
+	}
+
+	private static boolean validateEmail(String itemSearched , String regexPattern) {
+		// TODO Auto-generated method stub
+		return Pattern.compile(regexPattern)
+			      .matcher(itemSearched)
+			      .matches();
+	}
+
+}

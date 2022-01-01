@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;hibernateTrial&apos; to &apos;hibernate.trial&apos;&#x0D;&#x0A;- Original project: &apos;HibernateTrial&apos;&#x0D;&#x0A;- Original element: &apos;HibernateTrial/src/hibernateTrial&apos;&#x0D;&#x0A;- Renamed element: &apos;HibernateTrial/src/hibernate.trial&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;hibernateTrial&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;hibernateTrial" name="hibernate.trial" qualified="false" references="true" stamp="1640929191786" textual="false" version="1.0"/>
+</session>

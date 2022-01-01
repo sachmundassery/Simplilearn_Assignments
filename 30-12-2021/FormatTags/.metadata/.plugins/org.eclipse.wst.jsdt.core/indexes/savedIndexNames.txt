@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+D:\Java FSD Assignments\30-12-2021\FormatTags\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3729878469.index
+1847882414.index
+3832705807.index
+4281172765.index
+2190348650.index
+2815224938.index
+3724808902.index
+93648782.index
+889816000.index
+3043317065.index

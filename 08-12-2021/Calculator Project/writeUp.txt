@@ -1,0 +1,2 @@
+user can perform arithmetic operation between 2 numbers.
+division by zero is handled.

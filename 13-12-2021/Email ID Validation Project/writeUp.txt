@@ -1,0 +1,5 @@
+the user need to enter a valid email id. If not, with the help of regex
+the code test the validity of the email and returns saying that it is
+an invalid email id. 
+if the user has written a valid email id, it then checks for the presence 
+of that email id in the array of email IDs.

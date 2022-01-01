@@ -1,0 +1,5 @@
+127.0.0.1 - - [22/Dec/2021:15:10:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Dec/2021:15:10:42 +0530] "GET /servletConfigProj/servletConf.html HTTP/1.1" 200 161
+0:0:0:0:0:0:0:1 - - [22/Dec/2021:15:11:00 +0530] "GET /servletConfigProj/servletTwo HTTP/1.1" 200 21
+0:0:0:0:0:0:0:1 - - [22/Dec/2021:15:11:06 +0530] "GET /servletConfigProj/servletOne HTTP/1.1" 200 4
+0:0:0:0:0:0:0:1 - - [22/Dec/2021:15:11:08 +0530] "GET /servletConfigProj/servletThree HTTP/1.1" 200 16

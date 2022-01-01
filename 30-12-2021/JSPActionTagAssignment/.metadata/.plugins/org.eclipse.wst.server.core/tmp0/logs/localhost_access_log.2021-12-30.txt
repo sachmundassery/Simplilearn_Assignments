@@ -1,0 +1,4 @@
+127.0.0.1 - - [30/Dec/2021:12:00:08 +0530] "GET / HTTP/1.1" 404 748
+0:0:0:0:0:0:0:1 - - [30/Dec/2021:12:00:09 +0530] "GET /JspActionTagAssignment/index.jsp HTTP/1.1" 200 460
+0:0:0:0:0:0:0:1 - - [30/Dec/2021:12:00:12 +0530] "GET /JspActionTagAssignment/showbean.jsp HTTP/1.1" 200 265
+0:0:0:0:0:0:0:1 - - [30/Dec/2021:12:00:14 +0530] "GET /JspActionTagAssignment/forward.jsp HTTP/1.1" 200 196
