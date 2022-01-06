@@ -1,0 +1,62 @@
+2022-01-05 11:01:50,896 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-05 11:13:31,173 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-05 11:13:52,951 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.turreta.springevent:com-turreta-springevent:0.0.1-SNAPSHOT @ D:\Sample Programs\Phase3\Spring-Custom-Application-Events\pom.xml.
+2022-01-05 11:13:54,229 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:13:54,229 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:13:54,230 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:13:54,233 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:13:54,233 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\test\resources
+2022-01-05 11:13:55,587 [Worker-0: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.turreta.springevent:com-turreta-springevent:0.0.1-SNAPSHOT @ D:\Sample Programs\Phase3\Spring-Custom-Application-Events\pom.xml.
+2022-01-05 11:13:56,776 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:13:56,777 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:13:56,777 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:13:56,781 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:13:56,781 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\test\resources
+2022-01-05 11:14:54,212 [Worker-2: Launching Executing clean in D__Sample Programs_Phase3_Spring-Custom-Application-Events] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Sample Programs\Phase3\Spring-Custom-Application-Events
+2022-01-05 11:14:54,212 [Worker-2: Launching Executing clean in D__Sample Programs_Phase3_Spring-Custom-Application-Events] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2022-01-05 11:14:56,438 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:14:56,438 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:14:56,438 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:14:56,440 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:14:56,441 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\test\resources
+2022-01-05 11:15:03,796 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-01-05 11:15:04,242 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.turreta.springevent:com-turreta-springevent:0.0.1-SNAPSHOT @ D:\Sample Programs\Phase3\Spring-Custom-Application-Events\pom.xml.
+2022-01-05 11:15:04,495 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com-turreta-springevent/src/main/java
+2022-01-05 11:15:04,496 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com-turreta-springevent/src/test/java
+2022-01-05 11:15:04,752 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-01-05 11:15:05,173 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:15:05,174 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:15:05,174 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:15:05,177 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:15:05,177 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\test\resources
+2022-01-05 11:15:11,941 [Worker-15: Launching Executing install in D__Sample Programs_Phase3_Spring-Custom-Application-Events] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Sample Programs\Phase3\Spring-Custom-Application-Events
+2022-01-05 11:15:11,941 [Worker-15: Launching Executing install in D__Sample Programs_Phase3_Spring-Custom-Application-Events] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2022-01-05 11:15:18,071 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:15:18,072 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:15:18,072 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:15:18,073 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:15:18,074 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\test\resources
+2022-01-05 11:16:18,476 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-01-05 11:16:18,802 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.turreta.springevent:com-turreta-springevent:0.0.1-SNAPSHOT @ D:\Sample Programs\Phase3\Spring-Custom-Application-Events\pom.xml.
+2022-01-05 11:16:19,049 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com-turreta-springevent/src/main/java
+2022-01-05 11:16:19,050 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com-turreta-springevent/src/test/java
+2022-01-05 11:16:19,184 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-01-05 11:16:19,514 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:16:19,514 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:16:19,514 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:16:19,517 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:16:19,517 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\test\resources
+2022-01-05 11:16:26,204 [Worker-5: Launching Executing clean in D__Sample Programs_Phase3_Spring-Custom-Application-Events] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Sample Programs\Phase3\Spring-Custom-Application-Events
+2022-01-05 11:16:26,204 [Worker-5: Launching Executing clean in D__Sample Programs_Phase3_Spring-Custom-Application-Events] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2022-01-05 11:16:28,145 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:16:28,146 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:16:28,146 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:16:28,149 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:16:28,150 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\test\resources
+2022-01-05 11:16:34,638 [Worker-14: Launching Executing install in D__Sample Programs_Phase3_Spring-Custom-Application-Events] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Sample Programs\Phase3\Spring-Custom-Application-Events
+2022-01-05 11:16:34,639 [Worker-14: Launching Executing install in D__Sample Programs_Phase3_Spring-Custom-Application-Events] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2022-01-05 11:16:40,101 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:16:40,102 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:16:40,102 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\main\resources
+2022-01-05 11:16:40,106 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-05 11:16:40,106 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Sample Programs\Phase3\Spring-Custom-Application-Events\src\test\resources

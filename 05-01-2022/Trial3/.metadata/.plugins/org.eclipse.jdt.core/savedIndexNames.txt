@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+D:\Java FSD Assignments\05-01-2022\Trial3\.metadata\.plugins\org.eclipse.jdt.core
+4203635773.index
+211382184.index
+2302913381.index
+2600500675.index
+4175435506.index
+75931715.index
+1865797976.index
+2999438680.index
+100579758.index
+243742628.index
+896176710.index
+1531051581.index
+4192092995.index
+3498965368.index
+302682416.index
+89612009.index
+2214858763.index
+1013486762.index
+2865428348.index

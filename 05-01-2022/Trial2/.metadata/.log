@@ -1,0 +1,667 @@
+!SESSION 2022-01-05 11:00:40.605 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-01-05 11:01:41.384
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-05 11:01:41.384
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ba516ff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3bbb3c84,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-05 11:01:41.384
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@769c80d1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f0c2eff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-05 11:01:50.874
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-05 11:01:50.875
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-05 11:01:50.941
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Sachin.Mundassery'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-01-05 11:03:42.136
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/webtools/repository/2021-09/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-01-05 11:05:20.080
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-01-05 11:05:20.080
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.080
+!MESSAGE Software being installed: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.080
+!MESSAGE Missing requirement: Eclipse Integration Commands - Livexp 3.9.4.201804120754-RELEASE (org.springsource.ide.eclipse.commons.livexp 3.9.4.201804120754-RELEASE) requires 'osgi.bundle; com.google.guava [15.0.0,16.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:05:20.080
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.080
+!MESSAGE From: Spring IDE Core (required) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.080
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.wizard [3.9.4.201804120850-RELEASE,3.9.4.201804120850-RELEASE]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:05:20.080
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.080
+!MESSAGE From: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.080
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:05:20.080
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.080
+!MESSAGE From: Spring IDE Template Project Wizards 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.wizard 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.080
+!MESSAGE To: osgi.bundle; org.springsource.ide.eclipse.commons.livexp 3.8.4
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-01-05 11:05:20.102
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-01-05 11:05:20.102
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.102
+!MESSAGE Software being installed: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.102
+!MESSAGE Missing requirement: Eclipse Integration Commands - Livexp 3.9.4.201804120754-RELEASE (org.springsource.ide.eclipse.commons.livexp 3.9.4.201804120754-RELEASE) requires 'osgi.bundle; com.google.guava [15.0.0,16.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:05:20.102
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.102
+!MESSAGE From: Spring IDE Core (required) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.102
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.wizard [3.9.4.201804120850-RELEASE,3.9.4.201804120850-RELEASE]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:05:20.102
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.102
+!MESSAGE From: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.102
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:05:20.102
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.102
+!MESSAGE From: Spring IDE Template Project Wizards 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.wizard 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.102
+!MESSAGE To: osgi.bundle; org.springsource.ide.eclipse.commons.livexp 3.8.4
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-01-05 11:05:20.242
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-01-05 11:05:20.242
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.242
+!MESSAGE Software being installed: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.242
+!MESSAGE Missing requirement: Eclipse Integration Commands - Livexp 3.9.4.201804120754-RELEASE (org.springsource.ide.eclipse.commons.livexp 3.9.4.201804120754-RELEASE) requires 'osgi.bundle; com.google.guava [15.0.0,16.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:05:20.242
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.242
+!MESSAGE From: Spring IDE Core (required) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.242
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.wizard [3.9.4.201804120850-RELEASE,3.9.4.201804120850-RELEASE]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:05:20.243
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.243
+!MESSAGE From: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.243
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:05:20.243
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.243
+!MESSAGE From: Spring IDE Template Project Wizards 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.wizard 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.243
+!MESSAGE To: osgi.bundle; org.springsource.ide.eclipse.commons.livexp 3.8.4
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-01-05 11:05:20.244
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-01-05 11:05:20.244
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.244
+!MESSAGE Software being installed: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.244
+!MESSAGE Missing requirement: Eclipse Integration Commands - Livexp 3.9.4.201804120754-RELEASE (org.springsource.ide.eclipse.commons.livexp 3.9.4.201804120754-RELEASE) requires 'osgi.bundle; com.google.guava [15.0.0,16.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:05:20.244
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.245
+!MESSAGE From: Spring IDE Core (required) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.245
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.wizard [3.9.4.201804120850-RELEASE,3.9.4.201804120850-RELEASE]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:05:20.245
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.245
+!MESSAGE From: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.245
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:05:20.245
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.245
+!MESSAGE From: Spring IDE Template Project Wizards 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.wizard 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:05:20.245
+!MESSAGE To: osgi.bundle; org.springsource.ide.eclipse.commons.livexp 3.8.4
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-01-05 11:06:44.240
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/webtools/repository/2021-09/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:08.833
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.aop.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:08.834
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.context.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:08.834
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.reactivestreams.reactive-streams.source,1.0.2.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:08.834
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.beans.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:08.834
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,io.projectreactor.reactor-core.source,3.1.5.201804101345-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:08.835
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.aeri.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:08.835
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.context.support.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:08.835
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.core.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:08.835
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.expression.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:08.836
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.data.core.source,1.11.4.20160223-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:09.476
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.aeri.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:09.529
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.ajdt.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:10.483
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.ajdt.ui.visualiser.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:12.179
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.ajdt.ui.xref.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:12.339
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.aop.core.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:12.364
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.aop.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:15.686
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.aop.mylyn.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:17.123
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.aop.ui.matcher.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:17.660
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.aop.ui.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:17.946
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.batch.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:17.946
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.autowire.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:18.278
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.batch.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:18.467
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.beans.core.autowire.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:18.534
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.beans.core.metadata.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:18.556
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.beans.core.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:18.943
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.beans.mylyn.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:19.060
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.beans.ui.autowire.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:19.061
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.beans.ui.editor.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:19.203
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.beans.ui.graph.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:19.306
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.beans.ui.live.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:19.408
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.beans.ui.livegraph.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:19.584
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.beans.ui.refactoring.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:19.679
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.beans.ui.search.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:20.100
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.beans.ui.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:20.151
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.bestpractices.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:20.153
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.boot.dash.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:20.172
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.boot.dash.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:20.337
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.boot.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:20.663
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.boot.launch.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:20.688
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.boot.properties.editor.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:20.724
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.boot.properties.editor.yaml.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:20.741
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.boot.restart.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:21.183
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.boot.wizard.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:21.184
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.boot.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:21.185
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.boot.templates.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:21.460
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.buildship.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:21.594
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.buildship20.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:21.597
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.cft.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:21.643
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.cft.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:21.782
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.cloudfoundry.manifest.editor.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:21.967
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.config.core.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:22.005
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.config.graph.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:22.005
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.config.ui.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:22.333
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.core.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:22.373
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.data.core.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:22.374
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.data.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:22.490
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.editor.support.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:22.519
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:22.865
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.imports.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:22.884
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.integration.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:22.898
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.integration.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:23.728
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.maven.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:23.728
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.maven.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:24.152
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.metadata.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:24.919
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.mylyn.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:24.954
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.osgi.blueprint.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:24.954
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.mylyn.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:25.086
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.osgi.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:25.228
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.osgi.runtime.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:25.280
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.osgi.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:25.293
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.osgi.targetdefinition.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:25.563
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.quickfix.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:25.600
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.roo.core.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:25.601
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.roo.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:25.633
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.roo.ui.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:25.882
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.security.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:25.901
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.security.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:26.234
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:26.234
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.ui.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:26.296
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.webflow.core.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:26.344
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.ide.eclipse.webflow.feature.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:26.359
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.webflow.mylyn.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:26.539
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.webflow.ui.editor.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:26.677
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.webflow.ui.graph.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:26.869
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.wizard.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:26.869
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.webflow.ui.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:27.001
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.jdbc.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:27.151
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.jms.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:27.246
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.orm.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:27.275
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.oxm.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:27.366
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.tooling.cloudfoundry.manifest.ls,0.2.1.201804061725.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:27.945
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,org.springframework.tooling.cloudfoundry.manifest.ls.feature,4.0.0.201804061725.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:28.537
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.tooling.ls.eclipse.commons,4.0.0.201804061725.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:28.938
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.transaction.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:29.175
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.web.servlet.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:29.418
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.web.source,4.3.15.20180306-CI.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:07:29.937
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springsource.ide.eclipse.commons.cloudfoundry.client.v2.source,3.9.4.201804120850-RELEASE.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-05 11:08:02.605
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-01-05 11:08:02.605
+!MESSAGE session context was:(profile=C__Users_Sachin.Mundassery_eclipse_jee-2021-122_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2022-01-05 11:08:02.605
+!MESSAGE Problems downloading artifact: osgi.bundle,org.springframework.ide.eclipse.config.core.source,3.9.4.201804120850-RELEASE.
+!STACK 0
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.base/java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:244)
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.base/java.util.zip.ZipInputStream.read(ZipInputStream.java:196)
+	at java.base/java.util.jar.JarInputStream.read(JarInputStream.java:194)
+	at java.base/java.util.zip.ZipInputStream.closeEntry(ZipInputStream.java:142)
+	at java.base/java.util.zip.ZipInputStream.getNextEntry(ZipInputStream.java:120)
+	at java.base/java.util.jar.JarInputStream.getNextEntry(JarInputStream.java:129)
+	at java.base/java.util.jar.JarInputStream.getNextJarEntry(JarInputStream.java:166)
+	at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.getSignedEntries(SignedContentFromBundleFile.java:224)
+	at org.eclipse.osgi.internal.signedcontent.SignedContentFromBundleFile.<init>(SignedContentFromBundleFile.java:192)
+	at org.eclipse.osgi.internal.signedcontent.SignedBundleHook.getSignedContent(SignedBundleHook.java:170)
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.verifyContent(SignatureVerifier.java:84)
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.verify(SignatureVerifier.java:66)
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.close(SignatureVerifier.java:115)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.reportStatus(SimpleArtifactRepository.java:1273)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:665)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:796)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-01-05 11:12:26.937
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-01-05 11:12:26.937
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.937
+!MESSAGE Software being installed: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.937
+!MESSAGE Missing requirement: Eclipse Integration Commands - Livexp 3.9.4.201804120754-RELEASE (org.springsource.ide.eclipse.commons.livexp 3.9.4.201804120754-RELEASE) requires 'osgi.bundle; com.google.guava [15.0.0,16.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:12:26.937
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.937
+!MESSAGE From: Spring IDE Core (required) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.937
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.wizard [3.9.4.201804120850-RELEASE,3.9.4.201804120850-RELEASE]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:12:26.937
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.937
+!MESSAGE From: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.937
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:12:26.937
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.937
+!MESSAGE From: Spring IDE Template Project Wizards 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.wizard 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.937
+!MESSAGE To: osgi.bundle; org.springsource.ide.eclipse.commons.livexp 3.8.4
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-01-05 11:12:26.950
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-01-05 11:12:26.950
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.950
+!MESSAGE Software being installed: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.950
+!MESSAGE Missing requirement: Eclipse Integration Commands - Livexp 3.9.4.201804120754-RELEASE (org.springsource.ide.eclipse.commons.livexp 3.9.4.201804120754-RELEASE) requires 'osgi.bundle; com.google.guava [15.0.0,16.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:12:26.950
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.950
+!MESSAGE From: Spring IDE Core (required) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.950
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.wizard [3.9.4.201804120850-RELEASE,3.9.4.201804120850-RELEASE]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:12:26.950
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.950
+!MESSAGE From: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.950
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:12:26.950
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.950
+!MESSAGE From: Spring IDE Template Project Wizards 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.wizard 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.950
+!MESSAGE To: osgi.bundle; org.springsource.ide.eclipse.commons.livexp 3.8.4
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-01-05 11:12:26.993
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-01-05 11:12:26.993
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.993
+!MESSAGE Software being installed: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.993
+!MESSAGE Missing requirement: Eclipse Integration Commands - Livexp 3.9.4.201804120754-RELEASE (org.springsource.ide.eclipse.commons.livexp 3.9.4.201804120754-RELEASE) requires 'osgi.bundle; com.google.guava [15.0.0,16.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:12:26.993
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.993
+!MESSAGE From: Spring IDE Core (required) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.993
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.wizard [3.9.4.201804120850-RELEASE,3.9.4.201804120850-RELEASE]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:12:26.993
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.993
+!MESSAGE From: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.993
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:12:26.993
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.993
+!MESSAGE From: Spring IDE Template Project Wizards 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.wizard 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.993
+!MESSAGE To: osgi.bundle; org.springsource.ide.eclipse.commons.livexp 3.8.4
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-01-05 11:12:26.994
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-01-05 11:12:26.994
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.994
+!MESSAGE Software being installed: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.994
+!MESSAGE Missing requirement: Eclipse Integration Commands - Livexp 3.9.4.201804120754-RELEASE (org.springsource.ide.eclipse.commons.livexp 3.9.4.201804120754-RELEASE) requires 'osgi.bundle; com.google.guava [15.0.0,16.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:12:26.994
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.994
+!MESSAGE From: Spring IDE Core (required) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.994
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.wizard [3.9.4.201804120850-RELEASE,3.9.4.201804120850-RELEASE]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:12:26.994
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.994
+!MESSAGE From: Spring IDE OSGi Extension (optional) 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.osgi.feature.feature.group 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.994
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.springframework.ide.eclipse.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-01-05 11:12:26.994
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.994
+!MESSAGE From: Spring IDE Template Project Wizards 3.9.4.201804120850-RELEASE (org.springframework.ide.eclipse.wizard 3.9.4.201804120850-RELEASE)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-01-05 11:12:26.994
+!MESSAGE To: osgi.bundle; org.springsource.ide.eclipse.commons.livexp 3.8.4
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-01-05 11:12:57.504
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.springframework.ide.eclipse.config.core.source,3.9.4.201804120850-RELEASE.
+!SESSION 2022-01-05 11:13:06.855 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-01-05 11:13:27.324
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-05 11:13:27.324
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@470ad01c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e349258,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-05 11:13:27.324
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41092c8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e590e36,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-05 11:13:31.180
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-01-05 11:13:31.182
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-05 11:13:31.241
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Sachin.Mundassery'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

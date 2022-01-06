@@ -1,0 +1,3 @@
+users need to enter the size of the arrayList and then add each element to it.
+The program calculates the longest increasing subsequence and the result will
+be shown.
